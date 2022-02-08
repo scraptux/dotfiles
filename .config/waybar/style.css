@@ -1,0 +1,53 @@
+* {
+	border: none;
+	font-family: Fira Code Retina, FiraCode Nerd Font;
+	font-size: 14px;
+	box-shadow: none;
+	text-shadow: none;
+	transition-duration: 0s;
+}
+
+window#waybar {
+	background-color: #2c2d30;
+	border: 2px;
+}
+
+#workspaces,
+#tray {
+	color: #fbf1c7;
+}
+
+#workspaces button {
+	padding: 2px 8px 0px 8px;
+	color: #ebdbb2;
+	margin-left: 2px;
+	margin-right: 2px;
+	border: 2px;
+}
+
+#workspaces button.focused {
+	color: #ebdbb2;
+	background-color: #504945;
+}
+
+#workspaces button:hover {
+	background: #7c6f64;
+}
+
+#battery.critical:not(.charging) {
+	color: #fb4934;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+#pulseaudio,
+#network,
+#backlight,
+#battery,
+#clock,
+#tray,
+#window {
+	color: #ebdbb2;
+	margin-right: 8px;
+	margin-left: 8px;
+}
